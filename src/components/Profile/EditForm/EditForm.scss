@@ -1,0 +1,52 @@
+.edit-form {
+  padding-top: 20px;
+
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    padding: 10px 0;
+  }
+
+  &__label-name {
+    font-size: 18px;
+    color: #363535;
+    font-weight: 500;
+  }
+
+  &__input {
+    margin-top: 5px;
+    font-size: 18px;
+    border-bottom: #363535 solid 1px;
+    background-color: #f9f9f9;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: 0 3px;
+  }
+
+  &__error {
+    margin-top: 5px;
+    color: red;
+  }
+
+  &__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button {
+    background-color: #363535;
+    color:white;
+    font-size: 18px;
+
+    margin-top: 30px;
+    padding: 5px;
+
+    width: 110px;
+    align-self: center;
+  }
+}

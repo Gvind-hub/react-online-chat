@@ -1,0 +1,59 @@
+.home {
+  text-align: center;
+  padding-top: 70px;
+  color: #363535;
+  height: calc(100vh - 140px);
+
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+
+  &__title {
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
+
+  &__corp-name {
+    font-size: 56px;
+    font-weight: 500;
+  }
+
+  &__info {
+    font-size: 20px;
+  }
+
+  &__login-link {
+    border: #363535 solid 1px;
+    border-radius: 7px;
+
+    padding: 10px 20px;
+
+    transition: all .15s ease-in-out;
+
+    &:hover {
+      background-color: #363535;
+      color: white;
+    }
+  }
+  &__about {
+    margin-top: 100px;
+
+    text-align: left;
+    padding: 0 30px
+  }
+  &__about-title {
+    font-size: 30px;
+    font-weight: 500;
+
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  &__about-info {
+    font-size: 18px;
+    padding-left: 45px;
+  }
+}

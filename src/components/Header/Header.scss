@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+
+  padding: 10px 20px;
+
+  background-color: #363535;
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+
+  &__title {
+    font-size: 30px;
+    color: white;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding-bottom: 1px;
+    color: white;
+    border-bottom: 1px transparent solid;
+    transition: all .2s ease-in-out;
+    &.active {
+      color: orangered;
+    }
+    &:hover {
+      border-bottom: 1px orangered solid;
+    }
+  }
+  &__logout {
+    font-size: 14px;
+    background-color: transparent;
+    padding-bottom: 1px;
+    color: white;
+    border-bottom: 1px transparent solid;
+    transition: all .2s ease-in-out;
+    &.active {
+      color: orangered;
+    }
+    &:hover {
+      border-bottom: 1px orangered solid;
+    }
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    padding: 0 30px
+  }
+  &__user-avatar {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+}

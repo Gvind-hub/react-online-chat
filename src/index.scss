@@ -1,0 +1,18 @@
+@import 'nullstyle.scss';
+
+* {
+  font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-avatar {
+  border: 2px white solid;
+  border-radius: 50%;
+}

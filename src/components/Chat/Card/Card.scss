@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  padding-bottom: 20px;
+
+  &.right {
+    justify-content: flex-end;
+  }
+
+  &__inner {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.45);
+
+    padding: 10px;
+
+    max-width: 70%;
+    max-height: 100px;
+
+    &.right {
+      background-color: #dcf8c6;
+    }
+  }
+
+  &__user-avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.45);
+
+    &.right {
+      order: 1;
+      margin-left: 10px;
+    }
+  }
+
+  &__top {
+    border-bottom: rgba(54, 53, 53, 0.5) solid 1px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__controls {
+    visibility: hidden;
+    margin-left: 40px;
+    &.right {
+      visibility: visible;
+    }
+
+  }
+
+  &__buttons {
+    background-color: transparent;
+    font-size: 16px;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: orangered;
+    }
+  }
+
+  &__text {
+
+  }
+
+  &__message {
+    text-overflow: ellipsis;
+    font-size: 14px;
+  }
+
+  &__text-editor {
+    padding: 0;
+    max-width: 100%;
+    overflow: auto;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    background-color: transparent;
+  }
+}

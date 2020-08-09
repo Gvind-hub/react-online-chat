@@ -1,0 +1,37 @@
+.profile {
+  padding: 30px;
+  height: calc(100vh - 140px);
+
+  &__inner {
+    color: #363535;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+
+  }
+
+  &__details {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+  }
+
+  &__avatar {
+    padding: 50px;
+  }
+
+  &__pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  &__info {
+    padding-top: 20px;
+  }
+}
