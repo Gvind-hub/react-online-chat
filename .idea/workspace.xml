@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ad0d6af-6094-4a45-b9ee-8af07eb730e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/~$проводительная записка.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Сопроводительная записка.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596716163541</updated>
-      <workItem from="1596716164650" duration="134261000" />
+      <workItem from="1596716164650" duration="136568000" />
+      <workItem from="1598631118627" duration="6451000" />
     </task>
     <task id="LOCAL-00001" summary="all done">
       <created>1597013212856</created>
@@ -74,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597013212856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all done">
+      <created>1597013651684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597013651684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

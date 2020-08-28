@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ElasticInput from 'react-elastic-input';
 
 import './Card.scss'
@@ -6,14 +6,17 @@ import placeholder from "../../../assets/img/userPlaceholder.svg";
 
 const Card = ({message, onDeleteMessage, index, currentChat, chat, right, onEditMessage, users}) => {
     const [editMode, setEditMode] = useState(false);
-    const [text, setText] = useState(message.message);
+    const [text, setText] = useState('');
     const onClickDelete = () => {
         onDeleteMessage(currentChat, chat, index)
     };
     const onFinishEdit = () => {
         onEditMessage(currentChat, chat, index, text);
-        setEditMode(false)
+        setEditMode(false);
     };
+    useEffect(() => {
+        setText(message.message);
+    }, [message.message]);
     return (
         <div className={`card ${right}`}>
             <img className={`user-avatar card__user-avatar ${right}`}
